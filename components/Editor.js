@@ -26,8 +26,8 @@ const Editor = () => {
   const setNotes = useDispatchNotes();
 
   // editor note states
-  const [title, setTitle] = useState('New Note Title Here ...');
-  const [body, setBody] = useState(`Note Body here...`);
+  const [title, setTitle] = useState('');
+  const [body, setBody] = useState('');
   const [noteID, setNoteID] = useState(null);
   const [noteAction, setNoteAction] = useState('add');
   const [isSaved, setIsSaved] = useState(false);
